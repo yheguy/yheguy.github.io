@@ -30,8 +30,8 @@ body {
 }
 
 .utils_link img {
-    width: 20px; /* Taille des images */
-    height: 20px;
+    width: 40px; /* Taille des images */
+    height: 40px;
     cursor: pointer;
     transition: transform 0.3s;
 }
