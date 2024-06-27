@@ -27,6 +27,7 @@ footer {
     flex: 1; 
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .footer-section img {
@@ -35,4 +36,11 @@ footer {
     cursor: pointer;
     transition: transform 0.3s;
 }
+
+.contact {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+}
+
 
