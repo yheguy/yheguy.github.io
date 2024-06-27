@@ -47,5 +47,6 @@ footer {
     height: 40px;
     cursor: pointer;
     transition: transform 0.3s;
+    align-self: center;
 }
 
