@@ -14,12 +14,14 @@ body {
     flex: 1;
 }
 
-.footer {
-    background-color: #f1f1f1;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+footer {
+    height: 100px; 
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    margin-top: -100px; 
+    clear: both;
 }
 
 .utils_link {
@@ -31,6 +33,7 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
+    flex: 1;
 }
 
 .utils_link img {
@@ -43,6 +46,18 @@ body {
 .utils_link img:hover {
     transform: scale(1.1);
 }
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    flex: 1;
+ }
 
 .contact img {
     width: 40px; /* Taille des images */
