@@ -43,3 +43,10 @@ body {
 .utils_link img:hover {
     transform: scale(1.1);
 }
+
+.contact img {
+    width: 40px; /* Taille des images */
+    height: 40px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
