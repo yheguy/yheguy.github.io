@@ -13,25 +13,24 @@ body {
 
 footer {
     display: flex;
-    justify-content: space-around; /* Répartit les sections équitablement */
-    align-items: center; /* Centre les éléments verticalement */
-    height: 100px; /* Ajuster au besoin */
-    background-color: #333;
+    justify-content: space-around; 
+    align-items: center; 
+    height: 100px; 
     color: #fff;
     text-align: center;
     position: relative;
-    margin-top: -100px; /* Marge négative équivalente à la hauteur du footer */
+    margin-top: -100px; 
     clear: both;
 }
 
 .footer-section {
-    flex: 1; /* Chaque section prend l'espace égal */
+    flex: 1; 
     display: flex;
-    justify-content: center; /* Centre les éléments horizontalement */
+    justify-content: center;
 }
 
 .footer-section img {
-    width: 40px; /* Taille des images */
+    width: 40px; 
     height: 40px;
     cursor: pointer;
     transition: transform 0.3s;
