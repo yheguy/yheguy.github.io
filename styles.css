@@ -40,6 +40,7 @@ footer {
 .contact {
     flex: 1; 
     flex-direction: row;
+    vertical-align: middle;
 }
 
 .contact img {
