@@ -39,7 +39,7 @@ footer {
 
 .contact {
     flex: 1;
-    align-self: center;
+    display: flex;
 }
 
 .contact img {
