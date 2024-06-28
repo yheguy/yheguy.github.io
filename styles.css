@@ -17,6 +17,7 @@ body {
     gap: 10px;
     margin-left: 50px;
     background-color: lightblue;
+    justify-items: center;
 }
 
 .footer-section {
