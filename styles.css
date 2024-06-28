@@ -15,7 +15,6 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
     gap: 10px;
-    margin-left: 50px;
     background-color: lightblue;
     justify-items: center;
 }
