@@ -6,6 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-image: linear-gradient(144deg, #000000, #5B42F3 50%, #0000b1);
 }
 
 .pages{
@@ -32,8 +33,9 @@ body {
 header{
     width: 100%;
     position: fixed;
-    background-color: #fff;
+    background-image: linear-gradient(144deg, #00DDEB, #5B42F3 50%, #AF40FF);
     display: flex;
+    border: 2px solid #fff;
 }
 
 .container {
@@ -41,14 +43,12 @@ header{
     overflow: auto;
     display: flex;
     flex-direction: column;
-    background-color: cadetblue;
 }
 
 footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
     gap: 10px;
-    background-color: lightblue;
 }
 
 .footer-section {
@@ -106,4 +106,29 @@ footer {
     margin-left:15%;
     margin-right: 15%;
     margin-top: 20px;
+}
+
+.pages button{
+    align-items: center;
+    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+    border: 3;
+    border-color: #fff;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: Phantomsans, sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    line-height: 1em;
+    padding: 10px 20px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    margin: 5px;
+    
 }
