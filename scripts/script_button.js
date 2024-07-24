@@ -21,3 +21,9 @@ document.getElementById("button_xp").onclick = function () {
 document.getElementById("photo_accueil").onclick = function () {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 };
+
+document.getElementById("button_trombi").onclick = function () {
+    setTimeout(function() {
+        window.location.href = '../trombinoscope.html';
+    }, 300);
+};
