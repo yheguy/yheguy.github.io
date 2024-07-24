@@ -5,12 +5,13 @@ h1{
     font-size: 40px;
     letter-spacing: 2px;
     font-family: 'Poppins', sans-serif;
+    color: #fff;
 }
 body{
 	width: 100%;
     margin: 0px;
     padding: 0px;
-    background: #fdfdfd;
+    background: #30336b;
 }
 .conteneur {
     width: 1285px;
@@ -25,7 +26,7 @@ body{
 	font-family: 'Poppins', sans-serif; 
 }
 
-.cbp-rfgrid li {
+.li-image {
 	position: relative;
 	float: left;
 	overflow: hidden;
@@ -33,15 +34,16 @@ body{
 	padding: 10px;
 }
 
-.cbp-rfgrid li a,
-.cbp-rfgrid li a img {
+.li-image a,
+.li-image a img {
 	display: block;
 	width: 100%;
 	cursor: pointer;
 }
 
-.cbp-rfgrid li a img {
+.li-image a img {
 	max-width: 100%;
+    border-radius: 50%;
 }
 .poste{
 	text-transform: initial;
@@ -50,12 +52,13 @@ body{
 }
 
 /* Flexbox is used for centering the heading */
-.cbp-rfgrid li a div {
+.li-image a div {
 	position: absolute;
 	left: 20px;
 	top: 20px;
 	right: 20px;
 	bottom: 20px;
+    border-radius: 50%;
 	background: rgb(0 0 0 / 31%);
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -69,11 +72,11 @@ body{
     opacity: 0;
 }
 
-.cbp-rfgrid li a:hover div {
+.li-image a:hover div {
 	opacity: 1;
 }
 
-.cbp-rfgrid li a div h3 {
+.li-image a div h3 {
 	width: 100%;
 	color: #fff;
 	text-transform: uppercase;
@@ -115,14 +118,14 @@ body{
         letter-spacing: 2px;
         font-family: 'Poppins', sans-serif;
     }
-    .cbp-rfgrid li {
+    .li-image {
         position: relative;
         float: left;
         overflow: hidden;
         width: 135px;
         padding: 5px;
     }
-    .cbp-rfgrid li a div h3 {
+    .li-image a div h3 {
         font-size: 15px;
     }
     .coryR {
@@ -139,10 +142,50 @@ body{
         line-height: 15px;
         letter-spacing: normal;
     }
-    .cbp-rfgrid li a div {
+    .li-image a div {
         left: 5px;
         top: 5px;
         right: 5px;
         bottom: 5px;
     }
+}
+
+
+.hidden-div {
+    background-color: lightblue;
+    width: 300px;
+
+}
+/* 
+.hidden-content {
+    visibility: hidden;
+} */
+
+.container-test {
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    
+}
+
+.img img {
+    border-radius: 50%;
+    width: 300px;
+    height: auto;
+}
+
+.desc-test{
+    width: 600px;
+    background-color: #fff;
+    position: absolute;
+    height: 100%;
+    z-index: -10;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-none {
+    display: none;
 }
