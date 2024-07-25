@@ -27,15 +27,3 @@ document.getElementById("button_trombi").onclick = function () {
         window.location.href = '../trombinoscope.html';
     }, 300);
 };
-
-var descTest = document.getElementById("desc-test");
-
-    document.getElementById("clickable-image").onclick = function (){
-        if (descTest.classList.contains("d-none")) {
-            descTest.classList.remove("d-none");
-            descTest.classList.add("d-block");
-        } else {
-            descTest.classList.remove("d-block");
-            descTest.classList.add("d-none");
-        }
-    };

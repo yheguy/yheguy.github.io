@@ -150,42 +150,16 @@ body{
     }
 }
 
-
-.hidden-div {
-    background-color: lightblue;
-    width: 300px;
-
-}
-/* 
-.hidden-content {
-    visibility: hidden;
-} */
-
 .container-test {
     display: flex;
     position: relative;
     margin: 0 auto;
-    
+    background-color: transparent;
 }
 
-.img img {
+.li-image img {
     border-radius: 50%;
     width: 300px;
     height: auto;
 }
 
-.desc-test{
-    width: 600px;
-    background-color: #fff;
-    position: absolute;
-    height: 100%;
-    z-index: -10;
-}
-
-.d-block {
-    display: block;
-}
-
-.d-none {
-    display: none;
-}
