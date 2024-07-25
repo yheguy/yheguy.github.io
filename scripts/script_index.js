@@ -22,6 +22,10 @@ document.getElementById("photo_accueil").onclick = function () {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 };
 
+document.getElementById("button_softskill").onclick = function () {
+    document.getElementById("title_softskill").scrollIntoView({ behavior: "smooth" });
+};
+
 document.getElementById("button_trombi").onclick = function () {
     setTimeout(function() {
         window.location.href = '../trombinoscope.html';
